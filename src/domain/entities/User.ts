@@ -5,6 +5,7 @@ export class User {
         private readonly id: string,
         private readonly name: string,
         private readonly email: string,
+        private readonly password: string,
         private readonly cpf: ValidationCPF,
         private readonly phone: string,
         private readonly age: number,

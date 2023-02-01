@@ -1,4 +1,22 @@
 {
+  "name": "api-cca",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vitchenzo2812/api-node-clean-architecture.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vitchenzo2812/api-node-clean-architecture/issues"
+  },
+  "homepage": "https://github.com/Vitchenzo2812/api-node-clean-architecture#readme",
+  "description": "",
   "devDependencies": {
     "@types/node": "^18.11.18",
     "@typescript-eslint/eslint-plugin": "^5.50.0",
